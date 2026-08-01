@@ -1,7 +1,17 @@
 aid: rezonant
 name: Rezonant
-description: Rezonant is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rezonant is a London-based product development workspace, founded by former
+  Stripe UK engineering leader Emma Burrows, that captures product intent and
+  carries it all the way through tasks, coding agents, and shipped code. It helps
+  product managers and engineering teams turn product vision into engineering-ready
+  work by connecting to their existing stack (Jira, Linear, GitHub, and docs),
+  shaping intent into buildable tasks, and delivering code while keeping teams in
+  control. Rezonant exited stealth in 2026 with $6M in seed funding from General
+  Catalyst and firstminute Capital. It is offered as a credit-metered SaaS with
+  Free, Business, and Enterprise (SSO/SCIM) plans plus a Chrome extension. This
+  API Evangelist profile was surfaced from the General Catalyst portfolio; the
+  company publishes a product help center but no public developer API at this time.
 url: https://raw.githubusercontent.com/api-evangelist/rezonant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +19,58 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://rezonant.app/rezonant-logo-opengraph.png
 tags:
 - Company
+- Product Management
+- Software Development
+- AI Agents
+- Developer Tools
+- Engineering
+- Project Management
+common:
+- type: DomainSecurity
+  url: security/rezonant-domain-security.yml
+- type: Website
+  url: https://www.rezonant.app
+- type: Documentation
+  url: https://help.rezonant.app/
+- type: GettingStarted
+  url: https://help.rezonant.app/getting-started/create-your-first-chat
+- type: Support
+  url: https://help.rezonant.app/
+- type: Blog
+  url: https://www.rezonant.app/content/blog
+- type: Pricing
+  url: https://www.rezonant.app/content/pricing
+- type: SignUp
+  url: https://www.rezonant.app/signup
+- type: Login
+  url: https://www.rezonant.app/login
+- type: TermsOfService
+  url: https://www.rezonant.app/content/terms
+- type: PrivacyPolicy
+  url: https://www.rezonant.app/content/privacy
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
