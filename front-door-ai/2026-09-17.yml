@@ -1,0 +1,27 @@
+# Front Door AI Index — rezonant — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: rezonant
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.rezonant.app
+  final_host: rezonant.app
+  ownership: own
+  owner: rezonant
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 4
+  host_score: 4
+  density: 3.88
+  words: 1032
+  tiers:
+    agentic: 2
+    core: 0
+    model: 2
+  ambiguous: 19
+  top_terms:
+    agent: 19
+    Claude: 2
+    prompts: 2
